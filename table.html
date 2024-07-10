@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وب‌سایت با جداول</title>
+    <style>
+        *{
+            direction: rtl;
+            background: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        :root{
+            --bg-color: #1f242d;
+            --second-bg-color: #323946;
+            --text-color: #fff;
+            --main-color: #0ef;
+            --second-main-color: #ff2770;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            margin-right: 8rem;
+            border-radius: 10px;
+            box-shadow: 0 0 1rem var(--main-color);
+        }
+        th, td {
+            border: 1px solid var(--main-color);
+            padding: 8px;
+            text-align: center;
+            
+        }
+        th {
+            background-color: var(--second-bg-color);
+        }
+        h1{
+            margin-right: 47%;
+        }
+
+        @media(max-width:976){
+            table{
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>هفته اول</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>زنگ</th>
+                <th> برنامه</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> اول</td>
+                <td> دسته بندی دانش آموزان به سه کلاس / گروه بندی دو الی سه نفره / تعیین جایزه برای گروه برتر / توضیح راجب کلیت کار و ایجاد انگیزه </td>
+
+            </tr>
+            <tr>
+                <td> دوم</td>
+                <td> تاریخچه و چگونگی پایتون / نصب پایتون / متغیر ها / انواع داده ها </td>
+            </tr>
+            <tr>
+                <td> سوم</td>
+                <td> آموزش عملگر ها(operators) در پایتون و انواع و عملکرد آنها </td>
+            </tr>
+            <tr>
+                <td> چهارم</td>
+                <td> آموزش رشته ها(string) در پایتون / آموزش کاراکتر های کنترلی</td>
+            </tr>
+            <tr>
+                <td> پنجم</td>
+                <td> آموزش فرمت کردن / آموزش متد های رشته ای در پایتون</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>هفته دوم</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>زنگ</th>
+                <th> برنامه</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> اول</td>
+                <td> آموزش لیست ها (lists) در پایتون / آموزش تاپل ها (tuples) در پایتون </td>
+            </tr>
+            <tr>
+                <td> دوم</td>
+                <td> آموزش دیکشنری ها (dictionarys) در پایتون / آموزش ست ها (sets) در پایتون</td>
+            </tr>
+            <tr>
+                <td> سوم</td>
+                <td> آموزش دستورات شرطی در پایتون(if , elif , else)</td>
+            </tr>
+            <tr>
+                <td> چهارم</td>
+                <td> آموزش حلقه ها در پایتون(حلقه for)</td>
+            </tr>
+            <tr>
+                <td> پنجم</td>
+                <td> آموزش حلقه ها در پایتون(حلقه while)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>هفته سوم</h1>
+    <table>
+        <thead>
+            <tr>
+                <th> زنگ</th>
+                <th> برنامه</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> اول</td>
+                <td> اول</td>
+            </tr>
+            <tr>
+                <td> دوم</td>
+                <td> دوم</td>
+            </tr>
+            <tr>
+                <td> سوم</td>
+                <td> سوم</td>
+            </tr>
+            <tr>
+                <td> چهارم</td>
+                <td> چهارم</td>
+            </tr>
+            <tr>
+                <td> پنجم</td>
+                <td> پنجم</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
